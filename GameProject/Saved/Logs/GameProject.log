@@ -1,18 +1,20 @@
-﻿Log file open, 03/18/18 13:07:05
+﻿Log file open, 03/18/18 14:01:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(120757559) SRandInit(120757559).
+LogInit: Display: RandInit(-1601856349) SRandInit(-1601856349).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.729507
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.173736
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -161,8 +163,7 @@ LogInit:      CURL_VERSION_LARGEFILE
 LogInit:      CURL_VERSION_IDN
 LogInit:  CurlRequestOptions (configurable via config and command line):
 LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
-LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
-LogInit:  - HttpProxyAddress = '127.0.0.1:3213'
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
@@ -191,804 +192,701 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: D:/Unreal/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.18-17.07.12:177][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.18-17.07.12:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.18-17.07.12:198][  0]LogInit: Computer: CHRIS-PC
-[2018.03.18-17.07.12:198][  0]LogInit: User: Chris
-[2018.03.18-17.07.12:198][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.03.18-17.07.12:198][  0]LogInit: High frequency timer resolution =2.533212 MHz
-[2018.03.18-17.07.12:198][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
-[2018.03.18-17.07.12:198][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.18-17.07.12:198][  0]LogMemory: Process Physical Memory: 271.85 MB used, 271.85 MB peak
-[2018.03.18-17.07.12:198][  0]LogMemory: Process Virtual Memory: 270.32 MB used, 270.32 MB peak
-[2018.03.18-17.07.12:198][  0]LogMemory: Physical Memory: 2258.31 MB used,  5629.68 MB free, 7887.98 MB total
-[2018.03.18-17.07.12:198][  0]LogMemory: Virtual Memory: 614.32 MB used,  5629.68 MB free, 8388608.00 MB total
-[2018.03.18-17.07.14:410][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.03.18-17.07.14:410][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.03.18-17.07.14:909][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.03.18-17.07.14:909][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.03.18-17.07.14:909][  0]LogInit: Setting process to DPI aware
-[2018.03.18-17.07.14:931][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.03.18-17.07.14:931][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.03.18-17.07.14:932][  0]LogInit: Setting process to DPI aware
-[2018.03.18-17.07.15:875][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.18-17.07.15:886][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.03.18-17.07.15:887][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.03.18-17.07.15:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.18-17.07.15:893][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.18-17.07.15:893][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.18-17.07.15:893][  0]LogWindows: EnumDisplayDevices:
-[2018.03.18-17.07.15:893][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.03.18-17.07.15:894][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.03.18-17.07.15:894][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.03.18-17.07.15:894][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
-[2018.03.18-17.07.15:895][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.03.18-17.07.15:895][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.03.18-17.07.15:895][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
-[2018.03.18-17.07.15:895][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
-[2018.03.18-17.07.15:895][  0]LogD3D11RHI:   Driver Version: 10.18.14.4432 (internal:10.18.14.4432, unified:10.18.14.4432)
-[2018.03.18-17.07.15:895][  0]LogD3D11RHI:      Driver Date: 4-8-2016
-[2018.03.18-17.07.15:895][  0]LogRHI: Texture pool is 705 MB (70% of 1008 MB)
-[2018.03.18-17.07.15:905][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.18-17.07.15:927][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
-[2018.03.18-17.07.15:932][  0]LogShaderCompilers: Guid format shader working directory is -58 characters bigger than the processId version (../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Intermediate/Shaders/WorkingDirectory/7896/).
-[2018.03.18-17.07.15:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Chris/AppData/Local/Temp/UnrealShaderWorkingDir/123D9944432662C5C0B7898C26A1FEE1/'.
-[2018.03.18-17.07.15:933][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.18-17.07.18:259][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.18-17.07.18:772][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.18-17.07.19:272][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.18-17.07.19:792][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.18-17.07.20:299][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.18-17.07.20:806][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.18-17.07.21:311][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.18-17.07.21:827][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.18-17.07.22:454][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.18-17.07.23:015][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.18-17.07.23:549][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.18-17.07.24:065][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.18-17.07.24:650][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.18-17.07.25:291][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.18-17.07.26:564][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.18-17.07.26:564][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.18-17.07.27:166][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.18-17.07.27:663][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.18-17.07.28:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.18-17.07.28:756][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.18-17.07.29:278][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.18-17.07.29:791][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.18-17.07.30:304][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.18-17.07.30:827][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.18-17.07.30:827][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.18-17.07.36:708][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: Loaded boot cache 0.30s 78MB C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.18-17.07.37:013][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.18-17.07.37:040][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.18-17.07.37:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.18-17.07.37:069][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.18-17.07.37:075][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.18-17.07.37:079][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.18-17.07.37:079][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.18-17.07.38:171][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.18-17.07.41:657][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.18-17.07.42:182][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.18-17.07.42:183][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.18-17.07.42:183][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.18-17.07.42:183][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.18-17.07.42:183][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.18-17.07.42:241][  0]LogNetVersion: GameProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708194857)
-[2018.03.18-17.07.42:996][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
-[2018.03.18-17.07.44:883][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.070180 seconds
-[2018.03.18-17.07.44:892][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.18-17.07.44:892][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.18-17.07.44:892][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.18-17.07.45:700][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.18-17.08.05:551][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.18-17.08.05:840][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.18-17.08.11:756][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.18-17.08.15:499][  0]SourceControl: Source control is disabled
-[2018.03.18-17.08.15:499][  0]SourceControl: Source control is disabled
-[2018.03.18-17.08.16:007][  0]SourceControl: Source control is disabled
-[2018.03.18-17.08.16:503][  0]SourceControl: Source control is disabled
-[2018.03.18-17.08.23:846][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.18-17.08.26:322][  0]LogOcInput: OculusInput pre-init called
-[2018.03.18-17.08.28:923][  0]LogEngine: Initializing Engine...
-[2018.03.18-17.08.28:929][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.18-17.08.29:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.18-17.08.29:282][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.002 s
-[2018.03.18-17.08.30:732][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.18-17.08.30:758][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.18-17.08.30:814][  0]LogInit: FAudioDevice initialized.
-[2018.03.18-17.08.30:911][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Chris/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.18-17.08.30:939][  0]LogInit: Texture streaming: Enabled
-[2018.03.18-17.08.32:260][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.18-17.08.34:211][  0]LogInit: Transaction tracking system initialized
-[2018.03.18-17.08.38:704][  0]BlueprintLog: New page: Editor Load
-[2018.03.18-17.08.49:748][  0]LocalizationService: Localization service is disabled
-[2018.03.18-17.08.57:982][  0]LogConsoleResponse: Display: 
-[2018.03.18-17.08.58:575][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.18-17.08.58:575][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.18-17.08.58:576][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.18-17.08.59:161][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/' took 0.01s
-[2018.03.18-17.09.10:885][  0]SourceControl: Source control is disabled
-[2018.03.18-17.09.10:891][  0]LightingResults: New page: Lighting Build
-[2018.03.18-17.09.11:382][  0]MapCheck: New page: Map Check
-[2018.03.18-17.09.11:382][  0]LightingResults: New page: Lighting Build
-[2018.03.18-17.09.13:235][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.03.18-17.09.13:319][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.18-17.09.13:344][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.18-17.09.13:558][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 213.599ms to complete.
-[2018.03.18-17.09.13:558][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.672
-[2018.03.18-17.09.13:996][  0]LogCollectionManager: Loaded 0 collections in 0.002050 seconds
-[2018.03.18-17.09.14:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Collections/' took 0.01s
-[2018.03.18-17.09.14:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/Developers/Chris/Collections/' took 0.01s
-[2018.03.18-17.09.14:549][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/Collections/' took 0.01s
-[2018.03.18-17.09.14:549][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.18-17.09.14:559][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2363 classes and 519 folders.
-[2018.03.18-17.09.15:361][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.03.18-17.09.15:497][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.18-17.09.15:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.18-17.09.16:179][  0]LogSlate: Took 0.001272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.18-17.09.16:183][  0]LogSlate: Took 0.001267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.18-17.09.16:191][  0]LogSlate: Took 0.001279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.18-17.09.16:319][  0]LogRenderer: Reallocating scene render targets to support 776x336 Format 10 NumSamples 1 (Frame:1).
-[2018.03.18-17.09.17:624][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.03.18-17.09.17:624][  0]LogLoad: (Engine Initialization) Total time: 136.40 seconds
-[2018.03.18-17.09.17:624][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.18-17.09.17:624][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.03.18-17.09.17:624][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.03.18-17.09.18:003][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.18-17.09.18:051][  0]LogSlate: Took 0.001680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.18-17.09.19:383][  4]LogAssetRegistry: Asset discovery search completed in 96.4063 seconds
-[2018.03.18-17.09.19:385][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.18-17.09.19:385][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
-[2018.03.18-17.09.35:888][ 73]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.18-17.09.36:378][ 73]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.18-17.09.37:027][ 73]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.03.18-17.09.38:030][ 73]LogSlate: Took 0.003280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.18-17.09.38:180][ 74]LogSlate: Took 0.001235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.18-17.10.18:762][794]LogHttp: Warning: 0000000036E65C00: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.10.18:762][794]LogHttp: Warning: 0000000036E65C00: libcurl info message cache 0 (  Trying 127.0.0.1...)
-[2018.03.18-17.10.18:762][794]LogHttp: Warning: 0000000036E65C00: libcurl info message cache 1 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.10.18:763][794]LogHttp: Warning: 0000000036E65C00: libcurl info message cache 2 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.10.18:763][794]LogHttp: Warning: 0000000036E65C00: libcurl info message cache 3 (Closing connection 0)
-[2018.03.18-17.12.19:793][209]LogHttp: Warning: 000000005FEAD900: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.12.19:793][209]LogHttp: Warning: 000000005FEAD900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.12.19:793][209]LogHttp: Warning: 000000005FEAD900: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.12.19:794][209]LogHttp: Warning: 000000005FEAD900: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.12.19:794][209]LogHttp: Warning: 000000005FEAD900: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.12.19:794][209]LogHttp: Warning: 000000005FEAD900: libcurl info message cache 4 (Closing connection 1)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.14.20:844][109]LogHttp: Warning: 0000000069320280: libcurl info message cache 4 (Closing connection 2)
-[2018.03.18-17.16.25:128][672]LogHttp: Warning: 000000005F467100: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.16.25:129][672]LogHttp: Warning: 000000005F467100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.16.25:129][672]LogHttp: Warning: 000000005F467100: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.16.25:129][672]LogHttp: Warning: 000000005F467100: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.16.25:129][672]LogHttp: Warning: 000000005F467100: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.16.25:129][672]LogHttp: Warning: 000000005F467100: libcurl info message cache 4 (Closing connection 3)
-[2018.03.18-17.18.26:527][784]LogHttp: Warning: 000000004F631180: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.18.26:527][784]LogHttp: Warning: 000000004F631180: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.18.26:527][784]LogHttp: Warning: 000000004F631180: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.18.26:527][784]LogHttp: Warning: 000000004F631180: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.18.26:527][784]LogHttp: Warning: 000000004F631180: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.18.26:528][784]LogHttp: Warning: 000000004F631180: libcurl info message cache 4 (Closing connection 4)
-[2018.03.18-17.19.14:623][927]LogSlate: Took 0.002515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.18-17.19.23:670][954]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
-[2018.03.18-17.19.23:684][954]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP] ([1] browsable assets)...
-[2018.03.18-17.19.23:818][954]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.SlingshotBP]
-[2018.03.18-17.19.23:819][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP]
-[2018.03.18-17.19.23:995][954]LogSavePackage: Save=79.92ms
-[2018.03.18-17.19.23:995][954]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/SlingshotBP_Auto105D4EE5D4FA0758AF383C7BDCF63703F.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto1.uasset'
-[2018.03.18-17.19.24:011][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto1.uasset
-[2018.03.18-17.19.24:019][954]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange] ([1] browsable assets)...
-[2018.03.18-17.19.24:125][954]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.Orange]
-[2018.03.18-17.19.24:125][954]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange]
-[2018.03.18-17.19.24:258][954]LogSavePackage: Save=49.07ms
-[2018.03.18-17.19.24:259][954]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Orange_Auto12DB9C57449175D27E664A89AD2DE4C7C.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto1.uasset'
-[2018.03.18-17.19.24:268][954]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto1.uasset
-[2018.03.18-17.19.24:269][954]LogFileHelpers: Auto-saving content packages took 0.596
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.20.27:992][147]LogHttp: Warning: 0000000055F63880: libcurl info message cache 4 (Closing connection 5)
-[2018.03.18-17.22.29:034][129]LogHttp: Warning: 0000000031FD9000: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.22.29:034][129]LogHttp: Warning: 0000000031FD9000: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.22.29:034][129]LogHttp: Warning: 0000000031FD9000: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.22.29:034][129]LogHttp: Warning: 0000000031FD9000: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.22.29:035][129]LogHttp: Warning: 0000000031FD9000: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.22.29:035][129]LogHttp: Warning: 0000000031FD9000: libcurl info message cache 4 (Closing connection 6)
-[2018.03.18-17.23.44:841][477]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.18-17.23.44:934][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.23.44:935][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.18-17.23.44:942][477]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2018, 9:23:44 AM)
-[2018.03.18-17.23.44:943][477]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.03.18-17.23.45:012][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069393s)
-[2018.03.18-17.23.45:024][477]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.03.18-17.23.45:028][477]LogPlayLevel: PIE: World Init took: (0.015320s)
-[2018.03.18-17.23.45:029][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.085998s)
-[2018.03.18-17.23.45:075][477]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.18-17.23.45:088][477]LogInit: FAudioDevice initialized.
-[2018.03.18-17.23.45:147][477]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.18-17.23.45:165][477]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.18-13.23.45
-[2018.03.18-17.23.45:179][477]LogWorld: Bringing up level for play took: 0.018801
-[2018.03.18-17.23.45:786][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2018.03.18-17.23.45:808][477]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 2 in '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap'!
-[2018.03.18-17.23.45:808][477]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.18-18.01.03:055][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-18.01.03:055][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.18-18.01.03:065][  0]LogInit: Computer: DESKTOP-8DQOABU
+[2018.03.18-18.01.03:065][  0]LogInit: User: lingh
+[2018.03.18-18.01.03:065][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.18-18.01.03:065][  0]LogInit: High frequency timer resolution =1.945310 MHz
+[2018.03.18-18.01.03:065][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.03.18-18.01.03:065][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.18-18.01.03:066][  0]LogMemory: Process Physical Memory: 272.20 MB used, 272.20 MB peak
+[2018.03.18-18.01.03:066][  0]LogMemory: Process Virtual Memory: 269.87 MB used, 269.87 MB peak
+[2018.03.18-18.01.03:066][  0]LogMemory: Physical Memory: 4398.82 MB used,  11819.20 MB free, 16218.02 MB total
+[2018.03.18-18.01.03:066][  0]LogMemory: Virtual Memory: 682.23 MB used,  11819.20 MB free, 134217728.00 MB total
+[2018.03.18-18.01.03:179][  0]LogInit: Using OS detected language (en-US).
+[2018.03.18-18.01.03:179][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.18-18.01.03:181][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.18-18.01.03:542][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.18-18.01.03:777][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.18-18.01.03:790][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.03.18-18.01.03:790][  0]LogD3D11RHI:       128/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.18-18.01.03:792][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.18-18.01.03:792][  0]LogD3D11RHI:       0/0/8109 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.18-18.01.03:792][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.18-18.01.03:798][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.18-18.01.03:798][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.18-18.01.03:798][  0]LogWindows: EnumDisplayDevices:
+[2018.03.18-18.01.03:798][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.03.18-18.01.03:799][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.18-18.01.03:799][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.18-18.01.03:799][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.18-18.01.03:799][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2018.03.18-18.01.03:799][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.18-18.01.03:799][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.18-18.01.03:799][  0]LogRHI: Texture pool is 1523 MB (70% of 2176 MB)
+[2018.03.18-18.01.03:807][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.18-18.01.03:813][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.18-18.01.03:813][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Intermediate/Shaders/WorkingDirectory/8256/).
+[2018.03.18-18.01.03:814][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lingh/AppData/Local/Temp/UnrealShaderWorkingDir/7792C25B4E8592BD5E9418AFA6F9C790/'.
+[2018.03.18-18.01.03:814][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.18-18.01.04:574][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.18-18.01.04:615][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.18-18.01.04:654][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.18-18.01.04:693][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.18-18.01.04:729][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.18-18.01.04:767][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.18-18.01.04:806][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.18-18.01.04:845][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.18-18.01.04:878][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.18-18.01.04:919][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.18-18.01.04:961][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.18-18.01.05:000][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.18-18.01.05:037][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.18-18.01.05:075][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.18-18.01.05:156][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.18-18.01.05:156][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.18-18.01.05:197][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.18-18.01.05:224][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.18-18.01.05:301][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.18-18.01.05:325][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.18-18.01.05:367][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.18-18.01.05:405][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.18-18.01.05:443][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.18-18.01.05:480][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.18-18.01.05:481][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.18-18.01.07:249][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.18-18.01.07:319][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/lingh/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.18-18.01.07:319][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lingh/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.18-18.01.07:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.18-18.01.07:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.18-18.01.07:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.18-18.01.07:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.18-18.01.07:338][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.18-18.01.07:350][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lingh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.18-18.01.07:364][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.18-18.01.07:364][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.18-18.01.07:365][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-18.01.07:365][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.18-18.01.07:718][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.18-18.01.07:978][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.18-18.01.08:008][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.18-18.01.08:008][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.18-18.01.08:008][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.18-18.01.08:008][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.18-18.01.08:008][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.18-18.01.08:035][  0]LogNetVersion: GameProject , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2708194857)
+[2018.03.18-18.01.08:200][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.03.18-18.01.08:648][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.048039 seconds
+[2018.03.18-18.01.08:653][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.18-18.01.08:653][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.18-18.01.08:653][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.18-18.01.08:694][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.18-18.01.10:882][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.18-18.01.10:936][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.18-18.01.11:602][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.18-18.01.12:006][  0]SourceControl: Source control is disabled
+[2018.03.18-18.01.12:006][  0]SourceControl: Source control is disabled
+[2018.03.18-18.01.12:051][  0]SourceControl: Source control is disabled
+[2018.03.18-18.01.12:094][  0]SourceControl: Source control is disabled
+[2018.03.18-18.01.12:694][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.18-18.01.12:897][  0]LogOcInput: OculusInput pre-init called
+[2018.03.18-18.01.13:117][  0]LogEngine: Initializing Engine...
+[2018.03.18-18.01.13:119][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.18-18.01.13:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.18-18.01.13:337][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.18-18.01.13:437][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.18-18.01.13:444][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.18-18.01.14:734][  0]LogInit: FAudioDevice initialized.
+[2018.03.18-18.01.14:816][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/lingh/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.18-18.01.14:820][  0]LogInit: Texture streaming: Enabled
+[2018.03.18-18.01.14:899][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.18-18.01.14:994][  0]LogInit: Transaction tracking system initialized
+[2018.03.18-18.01.15:220][  0]BlueprintLog: New page: Editor Load
+[2018.03.18-18.01.15:849][  0]LocalizationService: Localization service is disabled
+[2018.03.18-18.01.16:248][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.03.18-18.01.16:249][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2018.03.18-18.01.16:249][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2018.03.18-18.01.16:410][  0]LogConsoleResponse: Display: 
+[2018.03.18-18.01.16:573][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.18-18.01.16:573][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.18-18.01.16:573][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.18-18.01.17:457][  0]LogFileCache: Scanning file cache for directory 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/' took 0.01s
+[2018.03.18-18.01.17:493][  0]SourceControl: Source control is disabled
+[2018.03.18-18.01.17:493][  0]Cmd: MAP LOAD FILE="E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.18-18.01.17:494][  0]LightingResults: New page: Lighting Build
+[2018.03.18-18.01.17:524][  0]MapCheck: New page: Map Check
+[2018.03.18-18.01.17:524][  0]LightingResults: New page: Lighting Build
+[2018.03.18-18.01.18:441][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.18-18.01.18:472][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.18-18.01.18:490][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.18-18.01.18:552][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.61ms to complete.
+[2018.03.18-18.01.18:552][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.058
+[2018.03.18-18.01.18:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.03.18-18.01.18:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.03.18-18.01.18:709][  0]LogCollectionManager: Loaded 0 collections in 0.000951 seconds
+[2018.03.18-18.01.18:781][  0]LogFileCache: Scanning file cache for directory 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Collections/' took 0.01s
+[2018.03.18-18.01.18:782][  0]LogFileCache: Scanning file cache for directory 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/Developers/lingh/Collections/' took 0.01s
+[2018.03.18-18.01.18:782][  0]LogFileCache: Scanning file cache for directory 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/Collections/' took 0.01s
+[2018.03.18-18.01.18:782][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.18-18.01.18:791][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2363 classes and 519 folders.
+[2018.03.18-18.01.18:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.18-18.01.18:882][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.18-18.01.18:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.18-18.01.18:935][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-18.01.18:937][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.18-18.01.18:942][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.18-18.01.19:050][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2018.03.18-18.01.19:813][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.18-18.01.19:813][  0]LogLoad: (Engine Initialization) Total time: 18.61 seconds
+[2018.03.18-18.01.19:813][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.18-18.01.19:814][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.18-18.01.19:853][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.18-18.01.19:919][  1]LogAssetRegistry: Asset discovery search completed in 11.7417 seconds
+[2018.03.18-18.01.19:921][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.18-18.01.19:921][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.03.18-18.01.20:854][  5]LogSlate: Took 0.000741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-18.01.22:368][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-18.01.22:488][ 92]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.01.22:488][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-18.01.22:489][ 92]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2018, 10:01:22 AM)
+[2018.03.18-18.01.22:489][ 92]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.18-18.01.22:514][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025237s)
+[2018.03.18-18.01.22:515][ 92]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.18-18.01.22:515][ 92]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2018.03.18-18.01.22:516][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026419s)
+[2018.03.18-18.01.22:526][ 92]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.18-18.01.22:593][ 92]LogInit: FAudioDevice initialized.
+[2018.03.18-18.01.22:646][ 92]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.18-18.01.22:657][ 92]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.18-14.01.22
+[2018.03.18-18.01.22:659][ 92]LogWorld: Bringing up level for play took: 0.008839
+[2018.03.18-18.01.22:692][ 92]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.18-18.01.22:696][ 92]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.571
+[2018.03.18-18.01.22:697][ 92]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.01.33:332][558]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.01.36:082][683]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Watermelon Ready!
+[2018.03.18-18.01.49:559][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.01.49:618][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.02.09:233][577]LogSlate: Took 0.000703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.18-18.02.09:691][577]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.18-18.02.09:745][577]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.03.18-18.02.10:491][577]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.18-18.02.10:568][578]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.18-18.02.37:496][ 86]LogSlate: Took 0.001859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.18-18.03.04:461][690]BlueprintLog: New page: Compile Orange
+[2018.03.18-18.04.55:183][811]BlueprintLog: New page: Compile Orange
+[2018.03.18-18.05.03:992][271]BlueprintLog: New page: Compile Orange
+[2018.03.18-18.09.00:082][409]BlueprintLog: New page: Compile SlingshotBP
+[2018.03.18-18.15.34:201][599]LogSavePackage: Save=468.14ms
+[2018.03.18-18.15.34:201][599]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_Auto1CFF582F64AD90448E622BD8E96D59C5D.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.03.18-18.15.34:205][599]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.03.18-18.15.34:207][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.540
+[2018.03.18-18.15.34:208][599]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.540
+[2018.03.18-18.15.34:213][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP] ([1] browsable assets)...
+[2018.03.18-18.15.34:277][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.SlingshotBP]
+[2018.03.18-18.15.34:277][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP]
+[2018.03.18-18.15.34:441][599]LogSavePackage: Save=153.66ms
+[2018.03.18-18.15.34:441][599]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/SlingshotBP_Auto13914144A467ED155DC89EA9A336EB256.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto1.uasset'
+[2018.03.18-18.15.34:444][599]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto1.uasset
+[2018.03.18-18.15.34:446][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Global] ([1] browsable assets)...
+[2018.03.18-18.15.34:446][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Global]
+[2018.03.18-18.15.34:624][599]LogSavePackage: Save=161.91ms
+[2018.03.18-18.15.34:624][599]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Global_Auto163D8704A4FF94DFC0CC809BDA510FA53.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Global_Auto1.uasset'
+[2018.03.18-18.15.34:628][599]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Global_Auto1.uasset
+[2018.03.18-18.15.34:631][599]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange] ([1] browsable assets)...
+[2018.03.18-18.15.34:708][599]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.Orange]
+[2018.03.18-18.15.34:708][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange]
+[2018.03.18-18.15.34:829][599]LogSavePackage: Save=110.38ms
+[2018.03.18-18.15.34:829][599]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Orange_Auto13A6B076B49A58AC39A3CB8BDB7B3E3C9.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto1.uasset'
+[2018.03.18-18.15.34:833][599]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto1.uasset
+[2018.03.18-18.15.34:833][599]LogFileHelpers: Auto-saving content packages took 0.622
+[2018.03.18-18.19.57:981][886]BlueprintLog: New page: Compile Global
+[2018.03.18-18.25.47:883][385]BlueprintLog: New page: Compile Global
+[2018.03.18-18.27.39:044][714]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UGameplayStatics::GetAllActorsOfClass' [Element not found.]
+[2018.03.18-18.29.37:288][391]LogSavePackage: Save=314.71ms
+[2018.03.18-18.29.37:288][391]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_Auto26BBB398A43B559DF532961B0E8B8C1D3.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.03.18-18.29.37:290][391]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.03.18-18.29.37:293][391]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.359
+[2018.03.18-18.29.37:293][391]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.359
+[2018.03.18-18.29.37:297][391]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP] ([1] browsable assets)...
+[2018.03.18-18.29.37:335][391]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.SlingshotBP]
+[2018.03.18-18.29.37:335][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP]
+[2018.03.18-18.29.37:411][391]LogSavePackage: Save=71.91ms
+[2018.03.18-18.29.37:411][391]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/SlingshotBP_Auto254A4E4FA43698B3248600D80F9877CB4.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto2.uasset'
+[2018.03.18-18.29.37:413][391]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto2.uasset
+[2018.03.18-18.29.37:414][391]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Global] ([1] browsable assets)...
+[2018.03.18-18.29.37:414][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Global]
+[2018.03.18-18.29.37:533][391]LogSavePackage: Save=114.67ms
+[2018.03.18-18.29.37:533][391]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Global_Auto2C3020D884F3568EA539DA29EAE73B3DC.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Global_Auto2.uasset'
+[2018.03.18-18.29.37:534][391]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Global_Auto2.uasset
+[2018.03.18-18.29.37:535][391]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange] ([1] browsable assets)...
+[2018.03.18-18.29.37:567][391]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.Orange]
+[2018.03.18-18.29.37:567][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange]
+[2018.03.18-18.29.37:622][391]LogSavePackage: Save=51.16ms
+[2018.03.18-18.29.37:622][391]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Orange_Auto23CDB05424D08B3C0626E6D8E17EF94FC.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto2.uasset'
+[2018.03.18-18.29.37:624][391]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto2.uasset
+[2018.03.18-18.29.37:624][391]LogFileHelpers: Auto-saving content packages took 0.328
+[2018.03.18-18.33.24:793][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Global" FILE="E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset" SILENT=true
+[2018.03.18-18.33.24:899][423]LogSavePackage: Save=100.84ms
+[2018.03.18-18.33.24:899][423]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Global9509CE504AFC9050448D0B82D8F5E7E7.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset'
+[2018.03.18-18.33.24:901][423]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset
+[2018.03.18-18.34.45:709][ 44]LogSavePackage: Save=70.95ms
+[2018.03.18-18.34.45:709][ 44]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/SlingshotBPE277895941C1D52C251DB48F3ED969FC.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset'
+[2018.03.18-18.34.45:711][ 44]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset
+[2018.03.18-18.36.21:845][508]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.18-18.36.28:458][ 74]LogUObjectBase: Warning: Object is not registered
+[2018.03.18-18.36.28:460][ 74]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: 
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: Stack: 
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x00000000373B2786 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000003715123A UE4Editor-Core.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000003716B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000001A3733F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000001EEB03AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x0000000019243EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x00000000190D74AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x00000000190DABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x0000000019208225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000002EAC7397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:460][ 74]LogOutputDevice: Error: [Callstack] 0x000000002EACCE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000002ED09913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000002EB23484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000002EAFB68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000002EAED6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000004993E39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000049931A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x00000000499403EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000004992D5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x00000000768AB85D USER32.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x00000000768AB1EF USER32.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000049941516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000098F950C8 UE4Editor.exe!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000098FA5430 UE4Editor.exe!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000098FA54AA UE4Editor.exe!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000098FB2379 UE4Editor.exe!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000098FB3D57 UE4Editor.exe!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x0000000077801FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: [Callstack] 0x000000007927EFC1 ntdll.dll!UnknownFunction []
+[2018.03.18-18.36.28:461][ 74]LogOutputDevice: Error: 
+[2018.03.18-18.36.28:466][ 74]LogStats:                SubmitErrorReport -  0.000 s
+[2018.03.18-18.36.31:658][ 74]LogStats:                    SendNewReport -  3.192 s
+[2018.03.18-18.36.31:658][ 74]LogStats:             FDebug::EnsureFailed -  3.200 s
+[2018.03.18-18.36.31:658][ 74]LogUObjectBase: Warning: Object is not registered
+[2018.03.18-18.36.32:470][129]LogSavePackage: Save=71.39ms
+[2018.03.18-18.36.32:470][129]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/SlingshotBPF90C2728496D0E5B9BCA45AA672EDFC5.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset'
+[2018.03.18-18.36.32:471][129]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset
+[2018.03.18-18.36.34:515][310]LogSavePackage: Save=35.27ms
+[2018.03.18-18.36.34:515][310]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Orange654AC4404259B7CCA7E922B1153864C7.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset'
+[2018.03.18-18.36.34:518][310]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset
+[2018.03.18-18.37.56:206][799]BlueprintLog: New page: Compile Global
+[2018.03.18-18.40.18:319][498]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.03.18-18.40.40:135][348]BlueprintLog: New page: Compile SlingshotBP
+[2018.03.18-18.40.40:166][348]LogBlueprint: Error: [Compiler SlingshotBP] This blueprint (self) is not a Global_C, therefore ' Target ' must have a connection.
+[2018.03.18-18.40.40:337][348]LogBlueprint: Warning: [Compiler SlingshotBP] [2379.13] Compile of SlingshotBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 201 ms] (/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.SlingshotBP)
+[2018.03.18-18.41.30:824][711]BlueprintLog: New page: Compile SlingshotBP
+[2018.03.18-18.43.18:648][559]LogEditorTransaction: Undo Move Node
+[2018.03.18-18.43.19:199][605]LogEditorTransaction: Undo Add Node
+[2018.03.18-18.45.07:130][311]BlueprintLog: New page: Compile SlingshotBP
+[2018.03.18-18.45.10:024][482]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-18.45.10:105][482]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.45.10:106][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-18.45.10:106][482]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2018, 10:45:10 AM)
+[2018.03.18-18.45.10:106][482]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.18-18.45.10:134][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028316s)
+[2018.03.18-18.45.10:136][482]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.18-18.45.10:137][482]LogPlayLevel: PIE: World Init took: (0.001831s)
+[2018.03.18-18.45.10:137][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030786s)
+[2018.03.18-18.45.10:166][482]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.18-18.45.10:250][482]LogInit: FAudioDevice initialized.
+[2018.03.18-18.45.10:287][482]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.18-18.45.10:295][482]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.18-14.45.10
+[2018.03.18-18.45.10:296][482]LogWorld: Bringing up level for play took: 0.006667
+[2018.03.18-18.45.10:301][482]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 2 in '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap'!
+[2018.03.18-18.45.10:301][482]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_1
+	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0215
+[2018.03.18-18.45.10:301][482]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Simple Move to Location in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.18-18.45.10:302][482]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.035
+[2018.03.18-18.45.10:302][482]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.45.16:216][715]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.45.17:098][751]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.45.18:611][814]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Watermelon Ready!
+[2018.03.18-18.45.31:310][344]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Orange Ready!
+[2018.03.18-18.45.45:017][908]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.45.45:239][917]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.45.45:457][926]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.45.46:513][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.45.46:596][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.45.50:587][ 86]LogSavePackage: Save=378.44ms
+[2018.03.18-18.45.50:587][ 86]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMapAEEA15BC4DEAC56CC4E5EE9FF1ABD81A.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.03.18-18.45.50:590][ 86]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.03.18-18.45.50:856][ 86]LogSavePackage: Save=220.41ms
+[2018.03.18-18.45.50:857][ 86]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_BuiltData3977CE634B7952AF67DFA98AF3B1415D.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.03.18-18.45.50:858][ 86]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.03.18-18.45.57:272][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Global" FILE="E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset" SILENT=true
+[2018.03.18-18.45.57:409][302]LogSavePackage: Save=129.78ms
+[2018.03.18-18.45.57:409][302]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Global5F81124D43566C664C6A82B55BCE3CEB.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset'
+[2018.03.18-18.45.57:412][302]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Global.uasset
+[2018.03.18-18.45.58:951][429]LogSavePackage: Save=104.63ms
+[2018.03.18-18.45.58:951][429]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/SlingshotBP2D6CB078406A7CE97DB607AD6052953B.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset'
+[2018.03.18-18.45.58:954][429]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset
+[2018.03.18-18.46.00:798][561]LogSavePackage: Save=332.72ms
+[2018.03.18-18.46.00:798][561]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonCharacterA651784D41F73324D1D6F4A86B281CC2.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.18-18.46.00:800][561]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.18-18.46.10:424][477]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.18-18.46.10:465][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.46.10:465][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.18-18.46.10:466][477]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2018, 10:46:10 AM)
+[2018.03.18-18.46.10:466][477]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.18-18.46.10:498][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031720s)
+[2018.03.18-18.46.10:499][477]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.18-18.46.10:499][477]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2018.03.18-18.46.10:500][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033193s)
+[2018.03.18-18.46.10:534][477]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.18-18.46.10:616][477]LogInit: FAudioDevice initialized.
+[2018.03.18-18.46.10:651][477]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.18-18.46.10:657][477]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.18-14.46.10
+[2018.03.18-18.46.10:659][477]LogWorld: Bringing up level for play took: 0.006649
+[2018.03.18-18.46.10:664][477]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 2 in '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap'!
+[2018.03.18-18.46.10:664][477]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
 	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
 	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0215
-[2018.03.18-17.23.45:808][477]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Simple Move to Location in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2018.03.18-17.23.45:809][477]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.074
-[2018.03.18-17.23.45:809][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.23.48:744][551]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.23.49:798][584]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.23.53:669][709]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.23.58:731][873]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.24.00:396][927]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Banana!
-[2018.03.18-17.24.00:935][944]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.24.02:948][  5]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Banana!
-[2018.03.18-17.24.05:861][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Orange Ready!
-[2018.03.18-17.24.08:925][195]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Coconut!
-[2018.03.18-17.24.14:666][374]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
-[2018.03.18-17.24.18:843][501]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Watermelon Ready!
-[2018.03.18-17.24.26:978][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.24.27:114][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.24.30:091][826]LogHttp: Warning: 00000000692A0580: libcurl info message cache 4 (Closing connection 7)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.26.31:133][645]LogHttp: Warning: 00000000633DDF00: libcurl info message cache 4 (Closing connection 8)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.28.32:169][191]LogHttp: Warning: 0000000060E72800: libcurl info message cache 4 (Closing connection 9)
-[2018.03.18-17.31.27:978][160]LogHttp: Warning: 000000005FEC3700: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.31.27:978][160]LogHttp: Warning: 000000005FEC3700: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.31.27:978][160]LogHttp: Warning: 000000005FEC3700: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.31.27:978][160]LogHttp: Warning: 000000005FEC3700: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.31.27:979][160]LogHttp: Warning: 000000005FEC3700: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.31.27:979][160]LogHttp: Warning: 000000005FEC3700: libcurl info message cache 4 (Closing connection 10)
-[2018.03.18-17.31.36:698][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.039
-[2018.03.18-17.31.36:707][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP] ([1] browsable assets)...
-[2018.03.18-17.31.36:707][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP]
-[2018.03.18-17.31.36:835][404]LogSavePackage: Save=54.41ms
-[2018.03.18-17.31.36:835][404]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/SlingshotBP_Auto24ED7315B4B0E3FC86E0DDE952DFDE37B.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto2.uasset'
-[2018.03.18-17.31.36:843][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP_Auto2.uasset
-[2018.03.18-17.31.36:849][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana] ([1] browsable assets)...
-[2018.03.18-17.31.37:163][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.Banana]
-[2018.03.18-17.31.37:163][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana]
-[2018.03.18-17.31.37:267][404]LogSavePackage: Save=34.48ms
-[2018.03.18-17.31.37:267][404]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Banana_Auto2EE9F66C84128EEF0A125D0B7B3F99501.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana_Auto2.uasset'
-[2018.03.18-17.31.37:274][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana_Auto2.uasset
-[2018.03.18-17.31.37:285][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange] ([1] browsable assets)...
-[2018.03.18-17.31.37:285][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange]
-[2018.03.18-17.31.37:390][404]LogSavePackage: Save=36.34ms
-[2018.03.18-17.31.37:390][404]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Orange_Auto2968CA4834DAB6A019A94E6BEC3716DAB.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto2.uasset'
-[2018.03.18-17.31.37:400][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange_Auto2.uasset
-[2018.03.18-17.31.37:400][404]LogFileHelpers: Auto-saving content packages took 0.701
-[2018.03.18-17.33.29:356][832]LogHttp: Warning: 000000004FBDE380: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.33.29:356][832]LogHttp: Warning: 000000004FBDE380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.33.29:356][832]LogHttp: Warning: 000000004FBDE380: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.33.29:356][832]LogHttp: Warning: 000000004FBDE380: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.33.29:357][832]LogHttp: Warning: 000000004FBDE380: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.33.29:357][832]LogHttp: Warning: 000000004FBDE380: libcurl info message cache 4 (Closing connection 11)
-[2018.03.18-17.35.30:780][196]LogHttp: Warning: 000000005FEC3100: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.35.30:780][196]LogHttp: Warning: 000000005FEC3100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.35.30:781][196]LogHttp: Warning: 000000005FEC3100: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.35.30:781][196]LogHttp: Warning: 000000005FEC3100: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.35.30:781][196]LogHttp: Warning: 000000005FEC3100: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.35.30:781][196]LogHttp: Warning: 000000005FEC3100: libcurl info message cache 4 (Closing connection 12)
-[2018.03.18-17.37.31:802][172]LogHttp: Warning: 000000005FBBFA00: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.37.31:802][172]LogHttp: Warning: 000000005FBBFA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.37.31:802][172]LogHttp: Warning: 000000005FBBFA00: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.37.31:802][172]LogHttp: Warning: 000000005FBBFA00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.37.31:803][172]LogHttp: Warning: 000000005FBBFA00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.37.31:803][172]LogHttp: Warning: 000000005FBBFA00: libcurl info message cache 4 (Closing connection 13)
-[2018.03.18-17.38.44:578][484]BlueprintLog: New page: Compile Banana
-[2018.03.18-17.38.55:917][ 74]LogSavePackage: Save=287.90ms
-[2018.03.18-17.38.55:917][ 74]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonCharacter7E429449418E22F1B5017F98ECED52FA.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.03.18-17.38.55:932][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2018.03.18-17.39.32:903][877]LogHttp: Warning: 0000000065845480: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.39.32:904][877]LogHttp: Warning: 0000000065845480: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.39.32:904][877]LogHttp: Warning: 0000000065845480: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.39.32:904][877]LogHttp: Warning: 0000000065845480: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.39.32:904][877]LogHttp: Warning: 0000000065845480: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.39.32:904][877]LogHttp: Warning: 0000000065845480: libcurl info message cache 4 (Closing connection 14)
-[2018.03.18-17.39.34:072][905]BlueprintLog: New page: Compile Coconut
-[2018.03.18-17.39.39:892][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.18-17.40.08:751][669]BlueprintLog: New page: Compile Durian
-[2018.03.18-17.40.41:368][409]BlueprintLog: New page: Compile Lemon
-[2018.03.18-17.40.43:751][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.18-17.40.45:821][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.18-17.41.10:579][ 67]BlueprintLog: New page: Compile Melon
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.41.33:926][110]LogHttp: Warning: 000000002347B580: libcurl info message cache 4 (Closing connection 15)
-[2018.03.18-17.41.58:154][501]LogSavePackage: Save=428.22ms
-[2018.03.18-17.41.58:154][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_Auto3885AF3374198458FC47B5DB0E7848ABA.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
-[2018.03.18-17.41.58:165][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
-[2018.03.18-17.41.58:172][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.908
-[2018.03.18-17.41.58:172][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.908
-[2018.03.18-17.41.58:182][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana] ([1] browsable assets)...
-[2018.03.18-17.41.58:223][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.Banana]
-[2018.03.18-17.41.58:223][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana]
-[2018.03.18-17.41.58:344][501]LogSavePackage: Save=52.44ms
-[2018.03.18-17.41.58:345][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Banana_Auto390CDB18247230F25EE68CB95E3110BC8.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana_Auto3.uasset'
-[2018.03.18-17.41.58:355][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana_Auto3.uasset
-[2018.03.18-17.41.58:364][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut] ([1] browsable assets)...
-[2018.03.18-17.41.58:407][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut.Coconut]
-[2018.03.18-17.41.58:407][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut]
-[2018.03.18-17.41.58:543][501]LogSavePackage: Save=63.35ms
-[2018.03.18-17.41.58:543][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Coconut_Auto345362B6C4B23B95A1711E8919531A1D1.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut_Auto3.uasset'
-[2018.03.18-17.41.58:551][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut_Auto3.uasset
-[2018.03.18-17.41.58:560][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian] ([1] browsable assets)...
-[2018.03.18-17.41.58:602][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian.Durian]
-[2018.03.18-17.41.58:602][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian]
-[2018.03.18-17.41.58:729][501]LogSavePackage: Save=52.44ms
-[2018.03.18-17.41.58:729][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Durian_Auto3EC64EC894CDEC3F820EFECA97F419B7C.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian_Auto3.uasset'
-[2018.03.18-17.41.58:737][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian_Auto3.uasset
-[2018.03.18-17.41.58:745][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon] ([1] browsable assets)...
-[2018.03.18-17.41.58:786][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon.Lemon]
-[2018.03.18-17.41.58:786][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon]
-[2018.03.18-17.41.58:906][501]LogSavePackage: Save=51.05ms
-[2018.03.18-17.41.58:906][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Lemon_Auto370C58EA04ACC57510B21248B4F0304E5.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon_Auto3.uasset'
-[2018.03.18-17.41.58:916][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon_Auto3.uasset
-[2018.03.18-17.41.58:923][501]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon] ([1] browsable assets)...
-[2018.03.18-17.41.58:963][501]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon.Melon]
-[2018.03.18-17.41.58:963][501]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon]
-[2018.03.18-17.41.59:101][501]LogSavePackage: Save=57.78ms
-[2018.03.18-17.41.59:101][501]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Melon_Auto3690260834197969F076DCAAB882BEB40.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon_Auto3.uasset'
-[2018.03.18-17.41.59:110][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon_Auto3.uasset
-[2018.03.18-17.41.59:110][501]LogFileHelpers: Auto-saving content packages took 0.935
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.43.35:346][280]LogHttp: Warning: 0000000074D8A380: libcurl info message cache 4 (Closing connection 16)
-[2018.03.18-17.45.36:691][644]LogHttp: Warning: 00000000798EA680: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.45.36:691][644]LogHttp: Warning: 00000000798EA680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.45.36:691][644]LogHttp: Warning: 00000000798EA680: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.45.36:691][644]LogHttp: Warning: 00000000798EA680: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.45.36:691][644]LogHttp: Warning: 00000000798EA680: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.45.36:692][644]LogHttp: Warning: 00000000798EA680: libcurl info message cache 4 (Closing connection 17)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.47.38:095][  8]LogHttp: Warning: 000000007A88D900: libcurl info message cache 4 (Closing connection 18)
-[2018.03.18-17.48.41:020][525]LogSavePackage: Save=248.07ms
-[2018.03.18-17.48.41:020][525]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonCharacterE99E18834863C63F207E808A23904BF0.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2018.03.18-17.48.41:029][525]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2018.03.18-17.48.42:244][588]LogSavePackage: Save=61.22ms
-[2018.03.18-17.48.42:244][588]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/SlingshotBP67A5A0214FEBDE20053641B7B82DB4E4.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset'
-[2018.03.18-17.48.42:271][588]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Slingshot/SlingshotBP.uasset
-[2018.03.18-17.48.44:841][663]LogSavePackage: Save=270.12ms
-[2018.03.18-17.48.44:841][663]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMapA49B2AAF45354C7B8AB73EA2BF6FA8C7.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.03.18-17.48.44:864][663]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.03.18-17.48.44:991][663]LogSavePackage: Save=11.72ms
-[2018.03.18-17.48.44:991][663]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_BuiltDataF5E50AB941123F38C97B70A86B7F2CA7.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2018.03.18-17.48.45:007][663]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2018.03.18-17.48.47:658][696]LogSavePackage: Save=38.43ms
-[2018.03.18-17.48.47:658][696]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/BananaEA2791A740459D6121A64084A0AE3282.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.uasset'
-[2018.03.18-17.48.47:684][696]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.uasset
-[2018.03.18-17.48.50:116][733]LogSavePackage: Save=36.51ms
-[2018.03.18-17.48.50:116][733]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/CoconutDA51E1D9496FD289123CA4B5665CF0CF.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut.uasset'
-[2018.03.18-17.48.50:147][733]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut.uasset
-[2018.03.18-17.48.52:582][762]LogSavePackage: Save=45.99ms
-[2018.03.18-17.48.52:582][762]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/DurianDD7671DA4C02DD05393948A2E04793E3.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian.uasset'
-[2018.03.18-17.48.52:609][762]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian.uasset
-[2018.03.18-17.48.54:828][786]LogSavePackage: Save=37.50ms
-[2018.03.18-17.48.54:829][786]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/LemonD97AF74B4C9C52CECB1132B3A550FEC0.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon.uasset'
-[2018.03.18-17.48.54:851][786]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon.uasset
-[2018.03.18-17.48.57:283][814]LogSavePackage: Save=42.17ms
-[2018.03.18-17.48.57:283][814]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/MelonC7AB4FE7405B0A2161BFB08DDF2F4F1E.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon.uasset'
-[2018.03.18-17.48.57:308][814]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon.uasset
-[2018.03.18-17.49.00:157][855]LogSavePackage: Save=39.05ms
-[2018.03.18-17.49.00:157][855]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/OrangeDEB75D8F4AAF9AAC1ACAA6AAB66D1FBF.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset'
-[2018.03.18-17.49.00:182][855]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.49.39:135][498]LogHttp: Warning: 00000000319ABA00: libcurl info message cache 4 (Closing connection 19)
-[2018.03.18-17.51.40:667][303]LogHttp: Warning: 000000005D3A6080: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.51.40:667][303]LogHttp: Warning: 000000005D3A6080: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.51.40:667][303]LogHttp: Warning: 000000005D3A6080: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.51.40:667][303]LogHttp: Warning: 000000005D3A6080: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.51.40:667][303]LogHttp: Warning: 000000005D3A6080: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.51.40:668][303]LogHttp: Warning: 000000005D3A6080: libcurl info message cache 4 (Closing connection 20)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.53.42:040][667]LogHttp: Warning: 000000005D3A6F80: libcurl info message cache 4 (Closing connection 21)
-[2018.03.18-17.53.57:807][844]LogSlate: Took 0.019244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2018.03.18-17.55.30:990][ 56]LogTemp: Repeating last play command: Selected Viewport
-[2018.03.18-17.55.31:070][ 56]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.55.31:070][ 56]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.03.18-17.55.31:153][ 56]LogPlayLevel: [PlayLevel] Compiling EnergyUI before play...
-[2018.03.18-17.55.31:322][ 56]LogPlayLevel: PlayLevel: Blueprint regeneration took 251 ms (1 blueprints)
-[2018.03.18-17.55.31:322][ 56]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2018, 9:55:31 AM)
-[2018.03.18-17.55.31:322][ 56]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.03.18-17.55.31:357][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034748s)
-[2018.03.18-17.55.31:360][ 56]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.03.18-17.55.31:360][ 56]LogPlayLevel: PIE: World Init took: (0.002842s)
-[2018.03.18-17.55.31:361][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038172s)
-[2018.03.18-17.55.31:408][ 56]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.18-17.55.31:423][ 56]LogInit: FAudioDevice initialized.
-[2018.03.18-17.55.31:455][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.18-17.55.31:459][ 56]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.18-13.55.31
-[2018.03.18-17.55.31:460][ 56]LogWorld: Bringing up level for play took: 0.004471
-[2018.03.18-17.55.31:464][ 56]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 2 in '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap'!
-[2018.03.18-17.55.31:464][ 56]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.18-18.46.10:664][477]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Simple Move to Location in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.18-18.46.10:664][477]LogScriptCore: Warning: Script Msg: Attempted to access index 2 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 2 in '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap'!
+[2018.03.18-18.46.10:664][477]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
 	ThirdPersonExampleMap_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0
 	Function /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C:ExecuteUbergraph_ThirdPersonExampleMap:0215
-[2018.03.18-17.55.31:464][ 56]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Simple Move to Location in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2018.03.18-17.55.31:464][ 56]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.274
-[2018.03.18-17.55.31:465][ 56]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.55.39:327][273]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.55.39:903][290]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.55.40:514][308]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.55.43:102][387]LogHttp: Warning: 0000000061BE6F80: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.55.43:103][387]LogHttp: Warning: 0000000061BE6F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.55.43:103][387]LogHttp: Warning: 0000000061BE6F80: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.55.43:103][387]LogHttp: Warning: 0000000061BE6F80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.55.43:103][387]LogHttp: Warning: 0000000061BE6F80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.55.43:103][387]LogHttp: Warning: 0000000061BE6F80: libcurl info message cache 4 (Closing connection 22)
-[2018.03.18-17.55.59:615][886]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.56.08:364][161]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.56.09:911][210]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Eat 1 apple
-[2018.03.18-17.56.11:804][271]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Orange!
-[2018.03.18-17.56.13:266][319]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Banana!
-[2018.03.18-17.56.14:845][371]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Orange!
-[2018.03.18-17.56.23:729][659]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
-[2018.03.18-17.56.25:433][712]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Orange Ready!
-[2018.03.18-17.56.40:334][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.56.40:415][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.03.18-17.57.44:191][277]LogHttp: Warning: 0000000065213100: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.57.44:192][277]LogHttp: Warning: 0000000065213100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.57.44:193][277]LogHttp: Warning: 0000000065213100: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.57.44:193][277]LogHttp: Warning: 0000000065213100: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.57.44:194][277]LogHttp: Warning: 0000000065213100: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.57.44:194][277]LogHttp: Warning: 0000000065213100: libcurl info message cache 4 (Closing connection 23)
-[2018.03.18-17.58.31:711][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.18-17.59.20:127][ 57]LogSavePackage: Save=361.94ms
-[2018.03.18-17.59.20:127][ 57]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/EnergyUI9D2BCAC44F76431199788796C9F7E481.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/EnergyUI.uasset'
-[2018.03.18-17.59.20:182][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/EnergyUI.uasset
-[2018.03.18-17.59.20:993][ 57]LogSavePackage: Save=317.18ms
-[2018.03.18-17.59.20:993][ 57]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap9973899B459FC8E0CCE18086F83EB70C.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.03.18-17.59.21:019][ 57]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.03.18-17.59.21:066][ 57]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.871
-[2018.03.18-17.59.21:206][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.18-17.59.21:272][ 57]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.18-17.59.21:597][ 58]Cmd: QUIT_EDITOR
-[2018.03.18-17.59.21:671][ 58]LogExit: Preparing to exit.
-[2018.03.18-17.59.22:885][ 58]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/' was aborted.
-[2018.03.18-17.59.22:945][ 58]LogExit: Editor shut down
-[2018.03.18-17.59.22:950][ 58]LogExit: Transaction tracking system shut down
-[2018.03.18-17.59.23:152][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.03.18-17.59.23:153][ 58]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.03.18-17.59.23:342][ 58]LogExit: Object subsystem successfully closed.
-[2018.03.18-17.59.23:402][ 58]LogD3D11RHI: Shutdown
-[2018.03.18-17.59.23:402][ 58]LogD3D11RHI: CleanupD3DDevice
-[2018.03.18-17.59.23:427][ 58]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module SequencerWidgets (554)
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.03.18-17.59.23:633][ 58]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.03.18-17.59.23:634][ 58]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.03.18-17.59.23:635][ 58]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.03.18-17.59.23:635][ 58]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.03.18-17.59.23:635][ 58]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.03.18-17.59.23:636][ 58]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/Collections/' was aborted.
-[2018.03.18-17.59.23:636][ 58]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/Developers/Chris/Collections/' was aborted.
-[2018.03.18-17.59.23:636][ 58]LogDirectoryWatcher: A directory notification for 'C:/Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Collections/' was aborted.
-[2018.03.18-17.59.23:636][ 58]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.03.18-17.59.23:637][ 58]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.03.18-17.59.23:637][ 58]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.03.18-17.59.23:638][ 58]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.03.18-17.59.23:639][ 58]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.03.18-17.59.23:640][ 58]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.03.18-17.59.23:642][ 58]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.03.18-17.59.23:642][ 58]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.03.18-17.59.23:642][ 58]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.03.18-17.59.23:642][ 58]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.03.18-17.59.23:643][ 58]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.03.18-17.59.23:644][ 58]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.03.18-17.59.23:644][ 58]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.03.18-17.59.23:646][ 58]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.03.18-17.59.23:647][ 58]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.03.18-17.59.23:648][ 58]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.03.18-17.59.23:649][ 58]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.03.18-17.59.23:649][ 58]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.03.18-17.59.23:649][ 58]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.03.18-17.59.23:649][ 58]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.03.18-17.59.24:195][ 58]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.03.18-17.59.24:195][ 58]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.03.18-17.59.24:195][ 58]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.03.18-17.59.24:195][ 58]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.03.18-17.59.24:196][ 58]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.03.18-17.59.24:197][ 58]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.03.18-17.59.24:197][ 58]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.03.18-17.59.24:199][ 58]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.03.18-17.59.24:199][ 58]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.03.18-17.59.24:200][ 58]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.03.18-17.59.24:201][ 58]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.03.18-17.59.24:202][ 58]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.03.18-17.59.24:202][ 58]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.03.18-17.59.24:203][ 58]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.03.18-17.59.24:204][ 58]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.03.18-17.59.24:205][ 58]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.03.18-17.59.24:206][ 58]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.03.18-17.59.24:206][ 58]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.03.18-17.59.24:247][ 58]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.03.18-17.59.24:250][ 58]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.03.18-17.59.24:265][ 58]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.03.18-17.59.24:268][ 58]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.03.18-17.59.24:268][ 58]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.03.18-17.59.24:268][ 58]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.03.18-17.59.24:269][ 58]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.03.18-17.59.24:271][ 58]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.03.18-17.59.24:271][ 58]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.03.18-17.59.24:271][ 58]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.03.18-17.59.24:286][ 58]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.03.18-17.59.24:286][ 58]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.03.18-17.59.24:286][ 58]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.03.18-17.59.24:287][ 58]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.03.18-17.59.24:288][ 58]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.03.18-17.59.24:288][ 58]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.03.18-17.59.24:288][ 58]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.03.18-17.59.24:288][ 58]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.03.18-17.59.24:288][ 58]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.03.18-17.59.24:289][ 58]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.03.18-17.59.24:496][ 58]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.03.18-17.59.24:504][ 58]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.03.18-17.59.24:504][ 58]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.03.18-17.59.24:504][ 58]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.03.18-17.59.24:505][ 58]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.03.18-17.59.24:506][ 58]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.03.18-17.59.24:506][ 58]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.03.18-17.59.24:506][ 58]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.03.18-17.59.24:506][ 58]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.03.18-17.59.24:507][ 58]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.03.18-17.59.24:507][ 58]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.03.18-17.59.24:507][ 58]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.03.18-17.59.24:518][ 58]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.03.18-17.59.24:518][ 58]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.03.18-17.59.24:518][ 58]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.03.18-17.59.24:518][ 58]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.03.18-17.59.24:519][ 58]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.03.18-17.59.24:519][ 58]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.03.18-17.59.24:519][ 58]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.03.18-17.59.24:519][ 58]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.03.18-17.59.24:519][ 58]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.03.18-17.59.24:524][ 58]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.03.18-17.59.24:526][ 58]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.03.18-17.59.24:526][ 58]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.03.18-17.59.24:526][ 58]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.03.18-17.59.24:526][ 58]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.03.18-17.59.24:528][ 58]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.03.18-17.59.24:530][ 58]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.03.18-17.59.24:532][ 58]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.03.18-17.59.24:534][ 58]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.03.18-17.59.24:534][ 58]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.03.18-17.59.24:534][ 58]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.03.18-17.59.24:534][ 58]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.03.18-17.59.24:535][ 58]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.03.18-17.59.24:538][ 58]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.03.18-17.59.24:541][ 58]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.03.18-17.59.24:542][ 58]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.03.18-17.59.24:542][ 58]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.03.18-17.59.24:547][ 58]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.03.18-17.59.24:548][ 58]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.03.18-17.59.24:548][ 58]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.03.18-17.59.24:655][ 58]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.03.18-17.59.24:755][ 58]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.03.18-17.59.24:763][ 58]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.03.18-17.59.24:763][ 58]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.03.18-17.59.24:763][ 58]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.03.18-17.59.24:764][ 58]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.03.18-17.59.24:764][ 58]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.03.18-17.59.24:768][ 58]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.03.18-17.59.24:768][ 58]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.03.18-17.59.24:768][ 58]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.03.18-17.59.24:769][ 58]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.03.18-17.59.24:773][ 58]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.03.18-17.59.24:773][ 58]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.03.18-17.59.24:773][ 58]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.03.18-17.59.24:773][ 58]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.03.18-17.59.24:775][ 58]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.03.18-17.59.24:775][ 58]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.03.18-17.59.24:781][ 58]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.03.18-17.59.24:781][ 58]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.03.18-17.59.24:781][ 58]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.03.18-17.59.24:785][ 58]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.03.18-17.59.24:786][ 58]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.03.18-17.59.24:786][ 58]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.03.18-17.59.24:790][ 58]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.03.18-17.59.24:790][ 58]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.03.18-17.59.24:793][ 58]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.03.18-17.59.24:797][ 58]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.03.18-17.59.24:797][ 58]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.03.18-17.59.24:823][ 58]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.03.18-17.59.24:824][ 58]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.03.18-17.59.24:825][ 58]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.03.18-17.59.24:829][ 58]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.03.18-17.59.24:829][ 58]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.03.18-17.59.24:831][ 58]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.03.18-17.59.24:833][ 58]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.03.18-17.59.24:833][ 58]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.03.18-17.59.24:833][ 58]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.03.18-17.59.24:833][ 58]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.03.18-17.59.24:834][ 58]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.03.18-17.59.24:835][ 58]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.03.18-17.59.24:866][ 58]LogDerivedDataCache: Shutdown
-[2018.03.18-17.59.24:866][ 58]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.03.18-17.59.24:866][ 58]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.03.18-17.59.24:867][ 58]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.03.18-17.59.24:868][ 58]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.03.18-17.59.24:869][ 58]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.03.18-17.59.24:870][ 58]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.03.18-17.59.24:872][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.03.18-17.59.24:872][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.03.18-17.59.24:872][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.03.18-17.59.24:873][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.03.18-17.59.24:873][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.03.18-17.59.24:873][ 58]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.03.18-17.59.24:874][ 58]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.03.18-17.59.24:875][ 58]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.03.18-17.59.24:876][ 58]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.03.18-17.59.24:877][ 58]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.03.18-17.59.24:877][ 58]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.03.18-17.59.24:878][ 58]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.18-17.59.24:880][ 58]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.18-17.59.24:880][ 58]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.03.18-17.59.24:881][ 58]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5171132-4363-2E07-6A50-6788FB2B0A58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=f273a15c4de26e850f28d1a7d85dba2b%7C3e0f88c4829944bba27cee7d48bd92eb%7C004954db-13a4-4d2d-862c-9d303498e558&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: request failed, libcurl error: 7 (Couldn't connect to server)
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: libcurl info message cache 1 (  Trying 127.0.0.1...)
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
-[2018.03.18-17.59.24:881][ 58]LogHttp: Warning: 000000005E5D5A80: libcurl info message cache 4 (Closing connection 24)
-[2018.03.18-17.59.24:892][ 58]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.18-17.59.24:896][ 58]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.18-17.59.24:897][ 58]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.18-17.59.24:897][ 58]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.18-17.59.24:898][ 58]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.18-17.59.24:901][ 58]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.18-17.59.24:901][ 58]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.18-17.59.24:901][ 58]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.18-17.59.24:907][ 58]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.18-17.59.24:908][ 58]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.18-17.59.24:909][ 58]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.18-17.59.24:910][ 58]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.18-17.59.24:910][ 58]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.18-17.59.24:916][ 58]LogExit: Exiting.
-[2018.03.18-17.59.24:978][ 58]Log file closed, 03/18/18 13:59:24
+[2018.03.18-18.46.10:664][477]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_ThirdPersonExampleMap' from node: Simple Move to Location in graph: EventGraph in object: ThirdPersonExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.18-18.46.10:664][477]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.602
+[2018.03.18-18.46.10:665][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.46.21:415][914]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.46.26:842][139]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.46.31:562][329]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.46.36:659][528]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.46.44:870][842]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.46.54:016][199]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.18-18.47.03:895][579]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Orange Ready!
+[2018.03.18-18.47.09:133][779]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Watermelon Ready!
+[2018.03.18-18.47.13:370][945]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Lemon Ready!
+[2018.03.18-18.47.16:608][ 77]LogBlueprintUserMessages: [ThirdPersonCharacter_167] No Orange!
+[2018.03.18-18.47.17:004][ 93]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.47.19:546][197]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Durian Ready!
+[2018.03.18-18.47.21:704][285]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.47.24:779][409]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Coconut Ready!
+[2018.03.18-18.47.27:750][529]LogBlueprintUserMessages: [SlingshotBP_C_0] Change Ammo!
+[2018.03.18-18.47.29:799][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.47.29:893][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.18-18.47.37:093][842]LogSavePackage: Save=380.80ms
+[2018.03.18-18.47.37:093][842]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMapFBA5AC504B664E2DD75F97BAE71507D3.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.03.18-18.47.37:096][842]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.03.18-18.47.37:300][842]LogSavePackage: Save=169.59ms
+[2018.03.18-18.47.37:300][842]LogSavePackage: Moving 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap_BuiltData3EB913444C48D7CAA032B68FFDA43283.tmp' to 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.03.18-18.47.37:302][842]LogSavePackage: Display: Finished SavePackage E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2018.03.18-18.47.49:176][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.18-18.47.49:286][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.18-18.47.49:376][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.18-18.47.49:688][251]Cmd: QUIT_EDITOR
+[2018.03.18-18.47.50:398][251]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.03.18-18.47.50:398][251]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.03.18-18.47.50:410][251]LogExit: Preparing to exit.
+[2018.03.18-18.47.51:353][251]LogExit: Editor shut down
+[2018.03.18-18.47.51:381][251]LogExit: Transaction tracking system shut down
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.03.18-18.47.51:546][251]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.03.18-18.47.51:681][251]LogExit: Object subsystem successfully closed.
+[2018.03.18-18.47.51:706][251]LogD3D11RHI: Shutdown
+[2018.03.18-18.47.51:706][251]LogD3D11RHI: CleanupD3DDevice
+[2018.03.18-18.47.51:756][251]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.18-18.47.51:766][251]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.03.18-18.47.51:766][251]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2018.03.18-18.47.51:766][251]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.03.18-18.47.51:766][251]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.03.18-18.47.51:766][251]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.03.18-18.47.51:766][251]LogDirectoryWatcher: A directory notification for 'D:/Unreal/UE_4.18/FeaturePacks/' was aborted.
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.03.18-18.47.51:771][251]LogDirectoryWatcher: A directory notification for 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/Collections/' was aborted.
+[2018.03.18-18.47.51:771][251]LogDirectoryWatcher: A directory notification for 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Content/Developers/lingh/Collections/' was aborted.
+[2018.03.18-18.47.51:771][251]LogDirectoryWatcher: A directory notification for 'E:/CIS_568_Game/Project1/DefendTheOrchard/GameProject/Saved/Collections/' was aborted.
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.03.18-18.47.51:771][251]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.03.18-18.47.51:772][251]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.03.18-18.47.51:773][251]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.03.18-18.47.51:773][251]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.03.18-18.47.51:773][251]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.03.18-18.47.52:192][251]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.03.18-18.47.52:247][251]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.03.18-18.47.52:248][251]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.03.18-18.47.52:248][251]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.03.18-18.47.52:248][251]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.03.18-18.47.52:248][251]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.03.18-18.47.52:257][251]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.03.18-18.47.52:258][251]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.03.18-18.47.52:259][251]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.03.18-18.47.52:506][251]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.03.18-18.47.52:507][251]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.03.18-18.47.52:509][251]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.03.18-18.47.52:611][251]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.03.18-18.47.52:711][251]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.03.18-18.47.52:711][251]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.03.18-18.47.52:711][251]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.03.18-18.47.52:711][251]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.03.18-18.47.52:711][251]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.03.18-18.47.52:712][251]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.03.18-18.47.52:718][251]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.03.18-18.47.52:718][251]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.03.18-18.47.52:718][251]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.03.18-18.47.52:718][251]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.03.18-18.47.52:726][251]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.03.18-18.47.52:727][251]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.03.18-18.47.52:727][251]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.03.18-18.47.52:727][251]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.03.18-18.47.52:727][251]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.03.18-18.47.52:727][251]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.03.18-18.47.52:735][251]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.03.18-18.47.52:735][251]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.03.18-18.47.52:735][251]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.03.18-18.47.52:735][251]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.03.18-18.47.52:736][251]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.03.18-18.47.52:737][251]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.03.18-18.47.52:737][251]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.03.18-18.47.52:737][251]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.03.18-18.47.52:737][251]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.03.18-18.47.52:743][251]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.03.18-18.47.52:743][251]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.03.18-18.47.52:743][251]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.03.18-18.47.52:744][251]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.03.18-18.47.52:744][251]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.03.18-18.47.52:744][251]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.03.18-18.47.52:744][251]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.03.18-18.47.52:744][251]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.03.18-18.47.52:752][251]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.03.18-18.47.52:757][251]LogDerivedDataCache: Shutdown
+[2018.03.18-18.47.52:757][251]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.18-18.47.52:758][251]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.18-18.47.52:759][251]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.18-18.47.52:759][251]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.18-18.47.52:759][251]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.03.18-18.47.52:759][251]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC9B6426A-431A-10B0-1790-89933ED381E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=a326b07d48e1804d5ac8448c4791f7e2%7C187d76b23fec41e89cedda504afaf210%7C92677d9c-c710-41c7-b8ee-2c49066b37fc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.18-18.47.52:759][251]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC9B6426A-431A-10B0-1790-89933ED381E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=a326b07d48e1804d5ac8448c4791f7e2%7C187d76b23fec41e89cedda504afaf210%7C92677d9c-c710-41c7-b8ee-2c49066b37fc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.18-18.47.52:780][251]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.03.18-18.47.52:782][251]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.03.18-18.47.52:783][251]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.18-18.47.52:786][251]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.18-18.47.52:790][251]LogExit: Exiting.
+[2018.03.18-18.47.52:803][251]Log file closed, 03/18/18 14:47:52

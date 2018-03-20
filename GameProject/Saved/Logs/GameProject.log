@@ -1294,3 +1294,345 @@ LogInit: Object subsystem initialized
 [2018.03.20-16.50.37:149][987]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMap8FF33C3042FDFEBED69D589513E83B82.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2018.03.20-16.50.37:167][987]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
 [2018.03.20-16.50.37:212][987]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.139
+[2018.03.20-16.51.29:319][184]LogHttp: Warning: 00000000659AAB00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-16.51.29:320][184]LogHttp: Warning: 00000000659AAB00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-16.51.29:320][184]LogHttp: Warning: 00000000659AAB00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-16.51.29:320][184]LogHttp: Warning: 00000000659AAB00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-16.51.29:320][184]LogHttp: Warning: 00000000659AAB00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-16.51.29:320][184]LogHttp: Warning: 00000000659AAB00: libcurl info message cache 4 (Closing connection 43)
+[2018.03.20-16.51.50:608][271]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-16.51.50:666][271]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.51.50:666][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.51.50:667][271]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 8:51:50 AM)
+[2018.03.20-16.51.50:667][271]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-16.51.50:722][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055167s)
+[2018.03.20-16.51.50:725][271]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-16.51.50:726][271]LogPlayLevel: PIE: World Init took: (0.003422s)
+[2018.03.20-16.51.50:726][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059482s)
+[2018.03.20-16.51.50:784][271]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.51.50:795][271]LogInit: FAudioDevice initialized.
+[2018.03.20-16.51.50:842][271]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-16.51.50:858][271]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-12.51.50
+[2018.03.20-16.51.50:859][271]LogWorld: Bringing up level for play took: 0.016602
+[2018.03.20-16.51.50:860][271]LogScriptCore: Warning: Script Msg: Attempted to access index 12 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 12 in '/Game/ThirdPersonBP/Blueprints/Robber.Robber_C:ExecuteUbergraph_Robber'!
+[2018.03.20-16.51.50:860][271]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Robber_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Robber4_5
+	Function /Game/ThirdPersonBP/Blueprints/Robber.Robber_C:ExecuteUbergraph_Robber:0152
+[2018.03.20-16.51.50:861][271]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_Robber' from node: Simple Move to Location in graph: EventGraph in object: Robber with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2018.03.20-16.51.50:870][271]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.472
+[2018.03.20-16.51.50:870][271]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.52.00:364][399]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.52.00:523][399]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.52.17:249][501]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-16.52.17:300][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.52.17:300][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-16.52.17:300][501]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 8:52:17 AM)
+[2018.03.20-16.52.17:300][501]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-16.52.17:352][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051447s)
+[2018.03.20-16.52.17:357][501]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-16.52.17:357][501]LogPlayLevel: PIE: World Init took: (0.005009s)
+[2018.03.20-16.52.17:357][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.057069s)
+[2018.03.20-16.52.17:411][501]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-16.52.17:425][501]LogInit: FAudioDevice initialized.
+[2018.03.20-16.52.17:464][501]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-16.52.17:479][501]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-12.52.17
+[2018.03.20-16.52.17:481][501]LogWorld: Bringing up level for play took: 0.016218
+[2018.03.20-16.52.17:492][501]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.095
+[2018.03.20-16.52.17:492][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.53.11:063][905]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.53.11:261][905]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-16.53.30:739][965]LogHttp: Warning: 000000006B180580: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-16.53.30:740][965]LogHttp: Warning: 000000006B180580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-16.53.30:742][965]LogHttp: Warning: 000000006B180580: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-16.53.30:742][965]LogHttp: Warning: 000000006B180580: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-16.53.30:742][965]LogHttp: Warning: 000000006B180580: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-16.53.30:742][965]LogHttp: Warning: 000000006B180580: libcurl info message cache 4 (Closing connection 44)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-16.55.32:108][631]LogHttp: Warning: 000000006981AB00: libcurl info message cache 4 (Closing connection 45)
+[2018.03.20-16.57.33:456][995]LogHttp: Warning: 000000006981BE80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-16.57.33:457][995]LogHttp: Warning: 000000006981BE80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-16.57.33:457][995]LogHttp: Warning: 000000006981BE80: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-16.57.33:457][995]LogHttp: Warning: 000000006981BE80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-16.57.33:457][995]LogHttp: Warning: 000000006981BE80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-16.57.33:458][995]LogHttp: Warning: 000000006981BE80: libcurl info message cache 4 (Closing connection 46)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-16.59.34:797][359]LogHttp: Warning: 000000006981A800: libcurl info message cache 4 (Closing connection 47)
+[2018.03.20-17.01.35:999][790]LogHttp: Warning: 000000009E99FE80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.01.35:999][790]LogHttp: Warning: 000000009E99FE80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.01.35:999][790]LogHttp: Warning: 000000009E99FE80: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.01.35:999][790]LogHttp: Warning: 000000009E99FE80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.01.35:999][790]LogHttp: Warning: 000000009E99FE80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.01.36:000][790]LogHttp: Warning: 000000009E99FE80: libcurl info message cache 4 (Closing connection 48)
+[2018.03.20-17.01.40:102][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.033
+[2018.03.20-17.01.40:110][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.03.20-17.01.40:161][801]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.03.20-17.01.40:161][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.03.20-17.01.40:531][801]LogSavePackage: Save=337.65ms
+[2018.03.20-17.01.40:531][801]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonCharacter_Auto550E3288D47E129D1B3C95EBB46968DA2.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2018.03.20-17.01.40:539][801]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset
+[2018.03.20-17.01.40:539][801]LogFileHelpers: Auto-saving content packages took 0.436
+[2018.03.20-17.03.20:780][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.03.28:323][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.03.29:108][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.03.37:030][379]LogHttp: Warning: 000000007EAC2E00: libcurl info message cache 4 (Closing connection 49)
+[2018.03.20-17.04.37:270][596]BlueprintLog: New page: Compile Apple
+[2018.03.20-17.04.44:413][654]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.04.44:463][654]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.04.44:463][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.04.44:463][654]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:04:44 AM)
+[2018.03.20-17.04.44:464][654]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.04.44:533][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069062s)
+[2018.03.20-17.04.44:540][654]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.04.44:540][654]LogPlayLevel: PIE: World Init took: (0.007432s)
+[2018.03.20-17.04.44:541][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.077257s)
+[2018.03.20-17.04.44:586][654]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.04.44:599][654]LogInit: FAudioDevice initialized.
+[2018.03.20-17.04.44:637][654]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.04.44:651][654]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.04.44
+[2018.03.20-17.04.44:653][654]LogWorld: Bringing up level for play took: 0.015059
+[2018.03.20-17.04.44:663][654]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.257
+[2018.03.20-17.04.44:664][654]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.04.56:985][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.04.57:143][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.05.31:243][833]BlueprintLog: New page: Compile Banana
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.05.38:090][939]LogHttp: Warning: 0000000065BF6E00: libcurl info message cache 4 (Closing connection 50)
+[2018.03.20-17.05.44:643][ 65]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.05.44:694][ 65]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.05.44:694][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.05.44:694][ 65]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:05:44 AM)
+[2018.03.20-17.05.44:694][ 65]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.05.44:780][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085409s)
+[2018.03.20-17.05.44:782][ 65]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.05.44:783][ 65]LogPlayLevel: PIE: World Init took: (0.002663s)
+[2018.03.20-17.05.44:783][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.089000s)
+[2018.03.20-17.05.44:842][ 65]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.05.44:856][ 65]LogInit: FAudioDevice initialized.
+[2018.03.20-17.05.44:900][ 65]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.05.44:916][ 65]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.05.44
+[2018.03.20-17.05.44:917][ 65]LogWorld: Bringing up level for play took: 0.016312
+[2018.03.20-17.05.44:929][ 65]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.521
+[2018.03.20-17.05.44:930][ 65]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.05.57:736][235]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.20-17.06.00:165][268]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.20-17.06.08:907][387]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.06.09:085][387]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.06.18:926][546]BlueprintLog: New page: Compile Banana
+[2018.03.20-17.06.21:977][585]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.06.22:035][585]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.06.22:036][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.06.22:036][585]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:06:22 AM)
+[2018.03.20-17.06.22:036][585]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.06.22:108][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072113s)
+[2018.03.20-17.06.22:114][585]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.06.22:115][585]LogPlayLevel: PIE: World Init took: (0.006554s)
+[2018.03.20-17.06.22:115][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.079215s)
+[2018.03.20-17.06.22:163][585]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.06.22:175][585]LogInit: FAudioDevice initialized.
+[2018.03.20-17.06.22:212][585]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.06.22:226][585]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.06.22
+[2018.03.20-17.06.22:227][585]LogWorld: Bringing up level for play took: 0.014330
+[2018.03.20-17.06.22:237][585]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.172
+[2018.03.20-17.06.22:237][585]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.06.37:108][788]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.20-17.06.51:607][994]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.20-17.07.06:177][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.07.06:325][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.07.16:668][354]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.07.18:126][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.07.39:245][946]LogHttp: Warning: 000000009284EE00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.07.39:245][946]LogHttp: Warning: 000000009284EE00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.07.39:245][946]LogHttp: Warning: 000000009284EE00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.07.39:245][946]LogHttp: Warning: 000000009284EE00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.07.39:245][946]LogHttp: Warning: 000000009284EE00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.07.39:246][946]LogHttp: Warning: 000000009284EE00: libcurl info message cache 4 (Closing connection 51)
+[2018.03.20-17.07.40:050][961]BlueprintLog: New page: Compile Coconut
+[2018.03.20-17.07.42:402][990]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.07.42:490][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.07.42:490][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.07.42:490][990]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:07:42 AM)
+[2018.03.20-17.07.42:491][990]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.07.42:569][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077992s)
+[2018.03.20-17.07.42:571][990]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.07.42:571][990]LogPlayLevel: PIE: World Init took: (0.002328s)
+[2018.03.20-17.07.42:572][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.081268s)
+[2018.03.20-17.07.42:620][990]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.07.42:631][990]LogInit: FAudioDevice initialized.
+[2018.03.20-17.07.42:676][990]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.07.42:690][990]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.07.42
+[2018.03.20-17.07.42:691][990]LogWorld: Bringing up level for play took: 0.014185
+[2018.03.20-17.07.42:701][990]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.292
+[2018.03.20-17.07.42:701][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.08.06:612][311]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.08.06:749][311]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.08.37:089][  0]BlueprintLog: New page: Compile Durian
+[2018.03.20-17.08.40:425][ 35]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.08.40:477][ 35]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.08.40:477][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.08.40:478][ 35]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:08:40 AM)
+[2018.03.20-17.08.40:478][ 35]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.08.40:552][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074445s)
+[2018.03.20-17.08.40:554][ 35]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.08.40:555][ 35]LogPlayLevel: PIE: World Init took: (0.002224s)
+[2018.03.20-17.08.40:555][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.077639s)
+[2018.03.20-17.08.40:599][ 35]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.08.40:611][ 35]LogInit: FAudioDevice initialized.
+[2018.03.20-17.08.40:652][ 35]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.08.40:666][ 35]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.08.40
+[2018.03.20-17.08.40:667][ 35]LogWorld: Bringing up level for play took: 0.014377
+[2018.03.20-17.08.40:676][ 35]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.266
+[2018.03.20-17.08.40:677][ 35]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.01:323][315]LogBlueprintUserMessages: [SlingshotBP_C_0] No fruit equipped!
+[2018.03.20-17.09.06:220][386]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.06:367][386]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.25:435][824]BlueprintLog: New page: Compile Lemon
+[2018.03.20-17.09.30:700][883]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.09.30:751][883]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.30:752][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.09.30:752][883]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:09:30 AM)
+[2018.03.20-17.09.30:752][883]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.09.30:817][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064876s)
+[2018.03.20-17.09.30:820][883]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.09.30:820][883]LogPlayLevel: PIE: World Init took: (0.002169s)
+[2018.03.20-17.09.30:820][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.068455s)
+[2018.03.20-17.09.30:868][883]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.09.30:879][883]LogInit: FAudioDevice initialized.
+[2018.03.20-17.09.30:922][883]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.09.30:936][883]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.09.30
+[2018.03.20-17.09.30:937][883]LogWorld: Bringing up level for play took: 0.014423
+[2018.03.20-17.09.30:946][883]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.535
+[2018.03.20-17.09.30:947][883]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.40:332][  7]LogHttp: Warning: 000000005E006680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.09.40:333][  7]LogHttp: Warning: 000000005E006680: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.09.40:333][  7]LogHttp: Warning: 000000005E006680: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.09.40:333][  7]LogHttp: Warning: 000000005E006680: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.09.40:333][  7]LogHttp: Warning: 000000005E006680: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.09.40:333][  7]LogHttp: Warning: 000000005E006680: libcurl info message cache 4 (Closing connection 52)
+[2018.03.20-17.09.45:252][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.09.45:393][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.07:988][646]BlueprintLog: New page: Compile Melon
+[2018.03.20-17.10.11:640][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.10.12:491][743]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.10.12:538][743]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.12:538][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.10.12:538][743]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:10:12 AM)
+[2018.03.20-17.10.12:539][743]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.10.12:611][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072574s)
+[2018.03.20-17.10.12:613][743]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.10.12:614][743]LogPlayLevel: PIE: World Init took: (0.002461s)
+[2018.03.20-17.10.12:615][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.075967s)
+[2018.03.20-17.10.12:671][743]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.10.12:688][743]LogInit: FAudioDevice initialized.
+[2018.03.20-17.10.12:732][743]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.10.12:748][743]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.10.12
+[2018.03.20-17.10.12:750][743]LogWorld: Bringing up level for play took: 0.017137
+[2018.03.20-17.10.12:760][743]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.349
+[2018.03.20-17.10.12:760][743]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.36:473][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.36:595][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.44:227][172]BlueprintLog: New page: Compile Melon
+[2018.03.20-17.10.48:003][258]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.10.48:054][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.10.48:055][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.10.48:055][258]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:10:48 AM)
+[2018.03.20-17.10.48:055][258]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.10.48:121][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066249s)
+[2018.03.20-17.10.48:125][258]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.10.48:125][258]LogPlayLevel: PIE: World Init took: (0.003478s)
+[2018.03.20-17.10.48:125][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.070520s)
+[2018.03.20-17.10.48:170][258]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.10.48:182][258]LogInit: FAudioDevice initialized.
+[2018.03.20-17.10.48:221][258]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.10.48:234][258]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.10.48
+[2018.03.20-17.10.48:235][258]LogWorld: Bringing up level for play took: 0.013616
+[2018.03.20-17.10.48:244][258]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.167
+[2018.03.20-17.10.48:245][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.23:224][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.23:357][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.29:730][834]BlueprintLog: New page: Compile Melon
+[2018.03.20-17.11.32:571][902]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.03.20-17.11.32:630][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.32:630][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.20-17.11.32:630][902]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 20, 2018, 9:11:32 AM)
+[2018.03.20-17.11.32:630][902]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.20-17.11.32:715][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084740s)
+[2018.03.20-17.11.32:728][902]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.20-17.11.32:731][902]LogPlayLevel: PIE: World Init took: (0.015357s)
+[2018.03.20-17.11.32:733][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.103113s)
+[2018.03.20-17.11.32:775][902]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.20-17.11.32:787][902]LogInit: FAudioDevice initialized.
+[2018.03.20-17.11.32:833][902]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.20-17.11.32:845][902]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.03.20-13.11.32
+[2018.03.20-17.11.32:846][902]LogWorld: Bringing up level for play took: 0.012794
+[2018.03.20-17.11.32:855][902]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.443
+[2018.03.20-17.11.32:856][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.41:423][ 15]LogHttp: Warning: 000000009284FA00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.11.41:423][ 15]LogHttp: Warning: 000000009284FA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.11.41:423][ 15]LogHttp: Warning: 000000009284FA00: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.11.41:423][ 15]LogHttp: Warning: 000000009284FA00: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.11.41:424][ 15]LogHttp: Warning: 000000009284FA00: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.11.41:424][ 15]LogHttp: Warning: 000000009284FA00: libcurl info message cache 4 (Closing connection 53)
+[2018.03.20-17.11.45:356][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.11.45:482][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.20-17.12.24:579][741]BlueprintLog: New page: Compile Orange
+[2018.03.20-17.12.45:914][ 37]BlueprintLog: New page: Compile Lemon
+[2018.03.20-17.12.50:659][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.20-17.13.15:897][495]LogSavePackage: Save=55.94ms
+[2018.03.20-17.13.15:897][495]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Durian6480A13840E33ED5C6B28BB012EDD6B9.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian.uasset'
+[2018.03.20-17.13.15:917][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Durian.uasset
+[2018.03.20-17.13.16:625][510]BlueprintLog: New page: Compile Durian
+[2018.03.20-17.13.32:450][721]BlueprintLog: New page: Compile Melon
+[2018.03.20-17.13.42:500][896]LogHttp: Warning: 0000000062258B80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.13.42:501][896]LogHttp: Warning: 0000000062258B80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.13.42:501][896]LogHttp: Warning: 0000000062258B80: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.13.42:501][896]LogHttp: Warning: 0000000062258B80: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.13.42:501][896]LogHttp: Warning: 0000000062258B80: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.13.42:501][896]LogHttp: Warning: 0000000062258B80: libcurl info message cache 4 (Closing connection 54)
+[2018.03.20-17.13.57:210][290]LogSavePackage: Save=794.18ms
+[2018.03.20-17.13.57:210][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonExampleMapE4CCFA5B418A928D51D1C2A399D4FE96.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.03.20-17.13.57:229][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.03.20-17.13.57:333][290]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.233
+[2018.03.20-17.13.57:511][290]LogSavePackage: Save=62.45ms
+[2018.03.20-17.13.57:511][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/BananaB9EC83654A4D44BBECA264B888207152.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.uasset'
+[2018.03.20-17.13.57:532][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Banana.uasset
+[2018.03.20-17.13.57:671][290]LogSavePackage: Save=56.59ms
+[2018.03.20-17.13.57:671][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Apple68DD8394486DF5809D7F298D4563D86C.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Apple.uasset'
+[2018.03.20-17.13.57:692][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Apple.uasset
+[2018.03.20-17.13.57:850][290]LogSavePackage: Save=71.75ms
+[2018.03.20-17.13.57:850][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/CoconutC8448A7C4E3D064C4FE1F290AAEA8182.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut.uasset'
+[2018.03.20-17.13.57:872][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Coconut.uasset
+[2018.03.20-17.13.58:029][290]LogSavePackage: Save=67.75ms
+[2018.03.20-17.13.58:029][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Lemon4C3E2B274394322D213B4B821D0F2EC9.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon.uasset'
+[2018.03.20-17.13.58:051][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Lemon.uasset
+[2018.03.20-17.13.58:205][290]LogSavePackage: Save=69.14ms
+[2018.03.20-17.13.58:205][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/Melon92B9F2B6464CA43648966D85C2566095.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon.uasset'
+[2018.03.20-17.13.58:231][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Melon.uasset
+[2018.03.20-17.13.58:392][290]LogSavePackage: Save=69.82ms
+[2018.03.20-17.13.58:392][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/OrangeC6EC27234B931EE2EBC2EE8DEAA3367C.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset'
+[2018.03.20-17.13.58:417][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/Fruits/FruitActors/Orange.uasset
+[2018.03.20-17.13.58:834][290]LogSavePackage: Save=373.81ms
+[2018.03.20-17.13.58:834][290]LogSavePackage: Moving '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Saved/ThirdPersonCharacterAC3EF927470497B62FDE338725D2C5A5.tmp' to '../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.20-17.13.58:857][290]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Chris/Documents/UpennCGGT/CIS 568 - Game Design/hw6/DefendTheOrchard/GameProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.20-17.15.43:849][664]LogHttp: Warning: 0000000068979780: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.20-17.15.43:849][664]LogHttp: Warning: 0000000068979780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.20-17.15.43:850][664]LogHttp: Warning: 0000000068979780: libcurl info message cache 1 (  Trying 127.0.0.1...)
+[2018.03.20-17.15.43:850][664]LogHttp: Warning: 0000000068979780: libcurl info message cache 2 (connect to 127.0.0.1 port 3213 failed: Connection refused)
+[2018.03.20-17.15.43:850][664]LogHttp: Warning: 0000000068979780: libcurl info message cache 3 (Failed to connect to 127.0.0.1 port 3213: Connection refused)
+[2018.03.20-17.15.43:850][664]LogHttp: Warning: 0000000068979780: libcurl info message cache 4 (Closing connection 55)
